@@ -53,8 +53,10 @@
     <preference name="TopActivityIndicator" value="gray" />
     
 	<preference name="loglevel" value="DEBUG" />
+	<plugins>
+	<gap:plugin name="BarcodeScanner" /> <!-- latest release -->	
+	</plugins>
 	
-	<gap:plugin name="BarcodeScanner" /> <!-- latest release -->
 	
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
