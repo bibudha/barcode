@@ -173,5 +173,5 @@
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
     
-    <gap:plugin name="BarcodeScanner" /> <!-- latest release -->
+    <gap:plugin name='BarcodeScanner' /> 
 </widget>
