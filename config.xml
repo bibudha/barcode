@@ -34,6 +34,8 @@
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
+    
+     <gap:plugin name="BarcodeScanner" /> <!-- latest release -->
 
     <!-- Preferences for iOS -->
     <preference name="AllowInlineMediaPlayback" value="false" />
